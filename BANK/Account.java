@@ -16,7 +16,7 @@ public class Account{
         }
 
     }
-
+//ystyrfutr
     public synchronized void deposite(int amt){
         balance = balance + amt;
         System.out.println("deposited" + balance);
