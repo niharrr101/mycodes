@@ -11,6 +11,8 @@ public class TicketCount {
 
     public void bookTicket(){
         lock.lock();
+
+
         if(tCount > 0){
             try {
                 System.out.println("booking ticket");
@@ -30,3 +32,7 @@ public class TicketCount {
 
     
 }
+
+
+
+
